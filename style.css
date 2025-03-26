@@ -1,22 +1,74 @@
-.container{
-    width: 100%;
-    height: 100%;
-    background: black;
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+    margin: 0;
 }
 
-.uno{
-    width: 50%;
-    height: 50vh;
-    background: greenyellow;
-    padding: 5px;
-
+/* Contenedor principal */
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
 }
 
-.dos{
-    background: red;
-    border-radius: 50%;
+/* Iconos */
+.icono-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
 }
 
+.icono {
+    font-size: 24px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+/* Estilos del formulario */
+.formulario {
+    text-align: left;
+}
+
+.form-group,
+.formulario1 {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Botón de inicio de sesión */
+.boton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.boton:hover {
+    background-color: #0056b3;
+}
