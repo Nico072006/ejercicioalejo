@@ -1,0 +1,29 @@
+.estructura{
+    background: white;
+    border-radius: 20px;
+    box-shadow: 10px 10 px 10px  #a3b1c6;
+
+}
+.estructura-inset{
+    background: white;
+    border-radius: 20px;
+    box-shadow:10px 10 px 10px  #a3b1c6 ;
+}
+.estructura-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    width: 300px;
+    text-align: center;
+}
+.logoti{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo{
+    width: 40px;
+    height: auto;
+}

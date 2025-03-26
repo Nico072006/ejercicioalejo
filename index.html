@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            document.querySelector(".uno").addEventListener("click",hola)
+
+        })
+        function hola (){
+            $(".uno").toggleClass("dos")
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <img src="./img/descarga.jpg" alt="" class="uno">
+
+    </div>
+    
+</body>
+</html>
